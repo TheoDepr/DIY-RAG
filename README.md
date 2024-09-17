@@ -19,7 +19,7 @@ DIY-RAG is an open-source implementation of the Retrieval-Augmented Generation (
 
 1. Clone the repository using Git:
 ```bash
-git clone https://github.com/your-username/diy-rag.git
+git clone "link"
 ```
 2. Install the required libraries using pip:
 
@@ -29,3 +29,6 @@ git clone https://github.com/your-username/diy-rag.git
 ```bash
 streamlit run .\main.py
 ```
+**Example**
+The first prompt was without the RAG activated, leading to a wrong result or a hallucination. The second prompt was with the RAG activated resulting in a correct answer!
+![Image Alt Text](assets/example.png "Example of DIY-RAG app")

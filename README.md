@@ -23,14 +23,9 @@ git clone https://github.com/your-username/diy-rag.git
 ```
 2. Install the required libraries using pip:
 
-3. Set up the LLM keyword extractor by downloading a pre-trained model (e.g., BART or RoBERTa) from Hugging Face's Transformers library:
-```python
-import transformers
-
-model = transformers.AutoModelForSequenceClassification.from_pretrained('bert-base-uncased')
-tokenizer = transformers.BertTokenizer.from_pretrained('bert-base-uncased')
-```
-5. Run the DIY-RAG streamlit app using the `main.py` file:
+3. Set up the LM studio server to port 9999
+  
+4. Run the DIY-RAG streamlit app using the `main.py` file:
 ```bash
 streamlit run .\main.py
 ```

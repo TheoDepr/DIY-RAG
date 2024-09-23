@@ -32,3 +32,7 @@ streamlit run .\main.py
 **Example**
 The first prompt was without the RAG activated, leading to a wrong result or a hallucination. The second prompt was with the RAG activated resulting in a correct answer!
 ![Image Alt Text](assets/example.png "Example of DIY-RAG app")
+
+
+***To Do**
+Try with function calling ...
